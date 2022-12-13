@@ -1,0 +1,32 @@
+conky.config = {
+	alignment = 'bottom_left',
+	background = true,
+	color2 = '13151A',
+	cpu_avg_samples = 2,
+	default_color = 'FFFFFF',
+	double_buffer = true,
+	font = 'Bitstream Vera Sans:size=8',
+	draw_shades = false,
+	gap_x = 25,
+	gap_y = 45,
+	minimum_width = 200,
+	no_buffers = true,
+	own_window = true,
+	own_window_type = 'override',
+	own_window_transparent = true,
+	update_interval = 2.0,
+	use_xft = true,
+}
+conky.text = [[
+${color2}SyStem: ${color}Kali Linux
+${color2}Kernel: ${color}${kernel}
+${color2}UpTime: ${color}${uptime_short}
+
+${color2}Terminal: ${color}mod+Enter
+${color2}Changer IP/MAC: ${color}ipmac 127.0.0.1
+${color2}No Log: ${color}logdl
+
+${color2}We Are ${color}Anonymous
+${color2}We Don't ${color}Forget
+${color2}We Don't ${color}Forgive
+]]
